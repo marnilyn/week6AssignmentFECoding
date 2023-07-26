@@ -15,7 +15,7 @@
 // Write a Unit Test using Mocha and Chai for at least one of the functions you write.
 
 const suits = ['h','s','c','d']
-const values = ['A','1','2','3','4','5','6','7','8','9','10','Jack','Queen','King']
+const values = ['Ace','1','2','3','4','5','6','7','8','9','10','Jack','Queen','King']
 
 class Card {
     constructor(suit,value,face){
@@ -68,6 +68,7 @@ class Card {
     let player1Points = 0;
     let player2Points = 0;
     
+    //display the scores and declare winnner
     for (let i = 0; i < this.player1.hand.length; i++){
         console.log(this.player2.hand[i].value);
         if (this.player1.hand[i].value > this.player2.hand[i].value){
