@@ -29,7 +29,7 @@ class Card {
     constructor(num){
         this.name = `Player ${num}`;
         this.hand = [];
-    }
+    }//player 1 or 2 with empty hand 
  }
 
  class Game {
