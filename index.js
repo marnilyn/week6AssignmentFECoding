@@ -85,10 +85,12 @@ class Card {
     }
     if (player1Points > player2Points) {
     console.log(`Player 1 has total score of ${player1Points} points and wins the game!`)}
-    else {
+    else if (player1Points < player2Points){
     console.log(`Player 2 has total score of ${player2Points} points and wins the game!`)   
-    }//declare game winner
     }
+    else {
+    console.log(`It's a tie!`)}
+    }//declare game winner
     
     
  }
